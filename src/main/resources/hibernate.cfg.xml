@@ -17,5 +17,7 @@
 
         <mapping class="ru.job4j.hibersamples.Role" />
         <mapping class="ru.job4j.hibersamples.User" />
+        <mapping class="ru.job4j.hibersamples.CarModel" />
+        <mapping class="ru.job4j.hibersamples.CarBrand" />
     </session-factory>
 </hibernate-configuration>
