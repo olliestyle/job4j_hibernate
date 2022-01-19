@@ -21,5 +21,7 @@
         <mapping class="ru.job4j.hibersamples.CarBrand" />
         <mapping class="ru.job4j.hibersamples.manytomany.Person" />
         <mapping class="ru.job4j.hibersamples.manytomany.Address" />
+        <mapping class="ru.job4j.hibersamples.manytomany.Author" />
+        <mapping class="ru.job4j.hibersamples.manytomany.Book" />
     </session-factory>
 </hibernate-configuration>
