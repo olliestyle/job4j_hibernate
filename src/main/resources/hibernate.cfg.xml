@@ -24,5 +24,7 @@
         <mapping class="ru.job4j.hibersamples.manytomany.Book" />
         <mapping class="ru.job4j.hibersamples.lazy.Task"/>
         <mapping class="ru.job4j.hibersamples.lazy.Category"/>
+        <mapping class="ru.job4j.hibersamples.lazy.LazyCarBrand"/>
+        <mapping class="ru.job4j.hibersamples.lazy.LazyCarModel"/>
     </session-factory>
 </hibernate-configuration>
