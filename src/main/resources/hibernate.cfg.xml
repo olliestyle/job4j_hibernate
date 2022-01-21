@@ -26,5 +26,7 @@
         <mapping class="ru.job4j.hibersamples.lazy.Category"/>
         <mapping class="ru.job4j.hibersamples.lazy.LazyCarBrand"/>
         <mapping class="ru.job4j.hibersamples.lazy.LazyCarModel"/>
+        <mapping class="ru.job4j.hibersamples.manytomany.City"/>
+        <mapping class="ru.job4j.hibersamples.manytomany.Human"/>
     </session-factory>
 </hibernate-configuration>
