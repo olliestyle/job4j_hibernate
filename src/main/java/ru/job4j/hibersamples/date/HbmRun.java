@@ -25,8 +25,8 @@ public class HbmRun {
             for (Product pr : products) {
                 System.out.println(pr);
             }
-//            Product product = Product.of("Молоко", "Савушкин продукт");
-//            session.save(product);
+            Product product = Product.of("Молоко", "Савушкин продукт");
+            session.save(product);
             session.getTransaction().commit();
             session.close();
         } catch (Exception e) {
