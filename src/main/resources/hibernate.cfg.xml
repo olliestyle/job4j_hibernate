@@ -31,5 +31,7 @@
         <mapping class="ru.job4j.hibersamples.manytomany.Human"/>
         <mapping class="ru.job4j.hibersamples.date.Product"/>
         <mapping class="ru.job4j.hibersamples.hql.Student"/>
+        <mapping class="ru.job4j.hibersamples.hql.Account"/>
+        <mapping class="ru.job4j.hibersamples.hql.LazyBook"/>
     </session-factory>
 </hibernate-configuration>

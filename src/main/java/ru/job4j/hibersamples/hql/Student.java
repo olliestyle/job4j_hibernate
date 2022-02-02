@@ -17,12 +17,23 @@ public class Student {
 
     private String city;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    private Account account;
+
     public static Student of(String name, int age, String city) {
         Student student = new Student();
         student.age = age;
         student.name = name;
         student.city = city;
         return student;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
     }
 
     public int getId() {
@@ -77,7 +88,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "id=" + id + ", name='" + name + '\''
-                + ", age=" + age + ", city='" + city + '\'' + '}';
+        return "Student{" + "id=" + id + ", name='" + name + '\'' + ", age=" + age
+                + ", city='" + city + '\'' + ", account=" + account + '}';
     }
 }
