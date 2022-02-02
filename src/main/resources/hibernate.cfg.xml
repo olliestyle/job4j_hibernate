@@ -33,5 +33,8 @@
         <mapping class="ru.job4j.hibersamples.hql.Student"/>
         <mapping class="ru.job4j.hibersamples.hql.Account"/>
         <mapping class="ru.job4j.hibersamples.hql.LazyBook"/>
+        <mapping class="ru.job4j.hibersamples.hql.Candidate"/>
+        <mapping class="ru.job4j.hibersamples.hql.Vacancy"/>
+        <mapping class="ru.job4j.hibersamples.hql.VacancyStore"/>
     </session-factory>
 </hibernate-configuration>
