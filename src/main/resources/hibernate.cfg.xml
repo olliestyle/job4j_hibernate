@@ -30,5 +30,6 @@
         <mapping class="ru.job4j.hibersamples.manytomany.City"/>
         <mapping class="ru.job4j.hibersamples.manytomany.Human"/>
         <mapping class="ru.job4j.hibersamples.date.Product"/>
+        <mapping class="ru.job4j.hibersamples.hql.Student"/>
     </session-factory>
 </hibernate-configuration>
