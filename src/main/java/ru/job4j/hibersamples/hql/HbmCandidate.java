@@ -39,14 +39,16 @@ public class HbmCandidate {
 
             System.out.println();
 
-            List<Candidate> candidates = session.createQuery("from ru.job4j.hibersamples.hql.Candidate c where c.id = :cid ")
+            Candidate candidate = (Candidate) session.createQuery("from ru.job4j.hibersamples.hql.Candidate c where c.id = :cid ")
                     .setParameter("cid", 2)
-                    .getResultList();
-            candidates.forEach(System.out::println);
+                    .uniqueResult();
+            System.out.println("--------------------------------------------");
+            System.out.println(candidate);
+            System.out.println("--------------------------------------------");
 
             System.out.println();
 
-            candidates = session.createQuery("from ru.job4j.hibersamples.hql.Candidate c where c.name = :cname ")
+            List<Candidate> candidates = session.createQuery("from ru.job4j.hibersamples.hql.Candidate c where c.name = :cname ")
                     .setParameter("cname", "NEWOleg")
                     .getResultList();
             candidates.forEach(System.out::println);
